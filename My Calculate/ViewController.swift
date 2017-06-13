@@ -13,12 +13,16 @@ class ViewController: UIViewController {
     //Implicit
     var intNumber1 = 0
     var intNumber2: Int = 0
+    var intAnswer: Int = 0
+    //
     var strNumber1 = ""
     var strNumber2: String = ""
+    var strAnswer: String = ""
     
     
-    
-    
+    //Initial View to outlet
+    @IBOutlet weak var answerLabel: UILabel!
+
     
     
     
@@ -39,7 +43,9 @@ class ViewController: UIViewController {
         intNumber2 = Int(strNumber2)!
         print("strNumer1 ===> \(intNumber1)")
         print("strNumber2 ==> \(intNumber2)")
-        
+    //calculate
+        intAnswer = intNumber1 + intNumber2
+        print("intAnswer \(intAnswer)")
         
         
         
