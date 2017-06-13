@@ -30,10 +30,16 @@ class ViewController: UIViewController {
         strNumber1 = num1TextField.text!
         strNumber2 = num2TextField.text!
         
-        //show log
+        //Show log
         print("strNumber1 ==> \(strNumber1)")
         print("strNumber2 ==> \(strNumber2)")
-        print("Answer ==> \(Int(strNumber1)!+Int(strNumber2)!)")
+        //Change datatype or
+        //print("Answer ==> \(Int(strNumber1)!+Int(strNumber2)!)")
+        intNumber1 = Int(strNumber1)!
+        intNumber2 = Int(strNumber2)!
+        print("strNumer1 ===> \(intNumber1)")
+        print("strNumber2 ==> \(intNumber2)")
+        
         
         
         
