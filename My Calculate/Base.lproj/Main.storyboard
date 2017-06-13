@@ -61,6 +61,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Answer"/>
+                                <connections>
+                                    <action selector="answerButtom:" destination="BYZ-38-t0r" eventType="touchUpInside" id="12X-Ai-GVh"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -70,6 +73,10 @@
                             <constraint firstItem="LH1-uu-4Ue" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="55" id="w9K-TD-rc0"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="num1TextField" destination="t4y-rJ-Yu8" id="bhU-nH-LDU"/>
+                        <outlet property="num2TextField" destination="wK9-mX-D6A" id="Om5-hC-Nzj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
